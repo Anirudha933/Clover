@@ -1,0 +1,7 @@
+# Production environment variables for Netlify
+# Copy this to .env.production and replace with your actual backend URL
+VITE_BACKEND_URL=https://your-backend-url.onrender.com
+VITE_DEMO=false
+VITE_SITE_TITLE=Clover
+VITE_SITE_BRAND=Honeyside
+VITE_SHOW_CREDITS=false

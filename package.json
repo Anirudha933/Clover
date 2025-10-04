@@ -1,0 +1,17 @@
+{
+  "name": "clover",
+  "author": "Honeyside",
+  "version": "2.9.1",
+  "private": true,
+  "engines": {
+    "node": "18.x.x"
+  },
+  "scripts":{
+    "client":"cd frontend && npm run dev",
+    "server": "cd backend && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
