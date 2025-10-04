@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fi';
 import { useGlobal } from 'reactn';
 import moment from 'moment';
-import 'emoji-mart/css/emoji-mart.css';
+import 'emoji-mart/dist-es/styles.css';
 import { Picker } from 'emoji-mart';
 import { useDispatch, useSelector } from 'react-redux';
 import message from '../../../actions/message';
